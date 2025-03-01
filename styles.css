@@ -1,5 +1,4 @@
 /* General Reset */
-
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +12,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background: #1a1a1a;
-    /* Default dark background */
+    background: #1a1a1a; /* Default dark background */
     color: white;
     transition: background 0.3s ease, color 0.3s ease;
 }
@@ -61,7 +59,7 @@ h1 {
 .time-display {
     font-size: 36px;
     font-weight: bold;
-    color: white;
+    color: white; /* Default text color for dark mode */
     background: transparent;
 }
 
@@ -174,17 +172,15 @@ h1 {
     border-radius: 50%;
 }
 
-input:checked+.slider {
+input:checked + .slider {
     background-color: #2196F3;
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
     transform: translateX(26px);
 }
 
-
 /* Light Mode */
-
 body.light-mode {
     background: #f0f0f0;
     color: #333;
@@ -196,7 +192,7 @@ body.light-mode .container {
 }
 
 body.light-mode .time-display {
-    color: #333;
+    color: #333; /* Text color for light mode */
 }
 
 body.light-mode .laps {
