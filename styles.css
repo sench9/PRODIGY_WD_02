@@ -188,7 +188,7 @@ body.light-mode {
 
 body.light-mode .container h2 {
     background: rgba(255, 255, 255, 0.9);
-    color: #333;
+    color: black;
 }
 
 body.light-mode .time-display {
