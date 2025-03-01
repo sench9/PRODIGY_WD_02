@@ -186,8 +186,8 @@ body.light-mode {
     color: #333;
 }
 
-body.light-mode .container h2 {
-    background: rgba(255, 255, 255, 0.9);
+body.light-mode .container h1 {
+    background: #f0f0f0;
     color: black;
 }
 
@@ -196,7 +196,7 @@ body.light-mode .time-display {
 }
 
 body.light-mode .laps {
-    background: rgba(255, 255, 255, 0.9);
+    background: #f0f0f0;
     color: #333;
     border: 1px solid #ddd;
 }
