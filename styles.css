@@ -15,7 +15,7 @@ body {
     overflow: hidden;
     background: #1a1a1a;
     /* Dark background */
-    background-image: url('background.jpg');
+    background-image: url('Background.jpg');
     /* Path to your image */
     background-size: cover;
     /* Ensures the image covers the entire screen */
